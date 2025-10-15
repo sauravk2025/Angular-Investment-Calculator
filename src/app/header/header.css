@@ -1,0 +1,10 @@
+header{
+    text-align: center;
+    /* background-color: aqua; */
+    font-family: sans-serif;
+    font-size: large;
+
+}
+header img{
+    height: 10rem;
+}

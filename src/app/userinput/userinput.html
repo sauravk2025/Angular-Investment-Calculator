@@ -1,0 +1,28 @@
+<div class="outer-container">
+    <div class="inside-container">
+           
+                <div class="contents-container">
+                    <div>
+                        <label>INITIAL INVESTMENT</label>
+                        <input type="number" placeholder="$1000" [(ngModel)]="initialamount"> 
+                    </div>
+                    
+                        <div>
+                            <label>ANNUAL INVESTMENT</label>
+                            <input type="number" placeholder="$100" [(ngModel)]="annualamount"> 
+                    </div>
+                        <div>
+                            <label>EXPECTED RETURN</label>
+                            <input type="number" placeholder="5%" [(ngModel)]="returnamount"> 
+                    </div>
+                        <div>
+                            <label>DURATION</label>
+                            <input type="number" placeholder="10 Years" [(ngModel)]="duration"> 
+                    </div>
+            </div>
+        
+       
+       <button (click)="onCalc()">CALCULATE</button>
+    </div>
+
+</div>

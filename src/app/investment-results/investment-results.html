@@ -1,0 +1,39 @@
+<!-- {{obj() | json}} -->
+<div class="table-container">
+
+            
+    @if(obj()[0].year == 0)
+    {
+        <p>Please Input a value and click CALCULATE</p>
+    }
+    @else {
+        <table class="custom-table">
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Investment Value</th>
+                    <th>Interest(Year)</th>
+                    <th>Total Interest</th>
+                    <th>Invested Capital</th>
+                </tr>
+            </thead>
+            <tbody>
+        @for(item of obj(); track item.year)
+        {
+        <tr>
+            <td>{{item.year}}</td>
+            <td>{{item.invested | currency:"USD" }}</td>
+            <td>{{item.interest | currency:"USD" }}</td>
+            <td>{{item.totalinterest | currency:"USD" }}</td>
+            <td>{{item.invested | currency:"USD" }}</td>
+        </tr>
+        }
+            </tbody>
+        </table>
+    }
+                
+                
+        
+   
+</div>
+

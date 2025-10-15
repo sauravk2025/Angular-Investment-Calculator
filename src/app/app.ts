@@ -1,12 +1,22 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
+// import { Header } from './header/header';
+// import { Userinput } from './userinput/userinput';
+// import { InvestmentResults } from './investment-results/investment-results';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  // imports: [Header,Userinput,InvestmentResults],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrl: './app.css',
+  standalone:false
 })
 export class App {
-  protected readonly title = signal('investment-calculator');
+  // protected readonly title = signal('investment-calculator');
+  // @Output() arrayObj = new EventEmitter<ResultType[]>();
+
+
+  
+
+  
+
 }

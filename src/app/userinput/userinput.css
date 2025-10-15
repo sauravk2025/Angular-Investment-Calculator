@@ -1,0 +1,80 @@
+
+.outer-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+
+    
+}
+.inside-container
+{
+  height: 32vh;
+  width: 30%;
+  /* background-color: red; */
+    background-color: rgb(19, 139, 93);
+    border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.contents-container
+{
+  
+    display: grid;
+    height: 90%;
+    place-items: center;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    border-radius: 10px;
+  
+}
+.contents-container div
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    /* background-color: red; */
+    height: 40px;
+    width: 200px;
+    gap:3px
+
+
+}
+.contents-container div input
+{
+  background-color: transparent;   
+   border: 1px solid white;         
+  color: white;                   
+  padding: 8px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;                   
+  width: 100%;
+  box-sizing: border-box;
+
+}
+input::placeholder{
+  color: rgba(248, 231, 231, 0.603);
+}
+button
+{
+    width: 90%;
+    height: 12%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(115, 230, 186);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(1, 80, 80);
+    border: 1px solid rgb(1, 43, 44);
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

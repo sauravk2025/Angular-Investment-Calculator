@@ -1,0 +1,26 @@
+.table-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+
+.custom-table
+{
+   /* border-collapse: separate;  */
+    border-spacing: 30px 20px; 
+    border:1px solid white;
+    border-collapse: separate;
+  
+}
+
+.custom-table th{
+    color: rgb(16, 238, 171);
+}
+.custom-table th,td{
+    border: none;
+}
