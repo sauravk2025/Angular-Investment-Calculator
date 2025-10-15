@@ -1,3 +1,8 @@
+## 🧾 **Investment Calculator – README.md**
+
+
+# ✅ Investment Calculator (Angular)
+
 An **Investment Calculator Web App** built with **Angular**, **HTML**, and **CSS** that helps users estimate their **yearly investment growth**, **interest earned**, and **total invested capital** based on key financial inputs.
 
 ---
